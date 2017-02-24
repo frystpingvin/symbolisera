@@ -1,0 +1,15 @@
+{
+  "name" : "Symbolisera",
+  "description" : "Plugin that creates a symbol for each of your selected layers",
+  "version" : "1.0",
+  "author" : "Samuel Lie",
+  "authorEmail" : "hej@samuellie.se",
+  "commands" : [
+    {
+      "script" : "create-symbols.js",
+      "handler" : "createSymbols",
+      "shortcut" : "command shift d",
+      "name" : "Create symbols from selection"
+    }
+  ],
+}
